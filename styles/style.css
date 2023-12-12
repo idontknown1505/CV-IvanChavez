@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,241,1) 100%);
+  }
+  
+  a {
+    text-decoration: none; /* Decoración de texto */
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  p {
+    color: black;
+  }
+  
+  #datoscv{
+    font-weight: 1000; 
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .icon {
+    height: 10px; /* Cambiar altura */
+    width: 15px; /* Cambiar el ancho */
+  }
+  #image-profile {
+    height: 150px; /* Cambiar altura */
+    width: 150px; /* Cambiar el ancho */
+    border-radius: 50%; /* Bordes redondos */
+  }
+  
+  #personalData {
+    background-color: rgb(164, 243, 89);
+    border-radius: 25px;
+    margin: 25px;
+    padding-left: 50px; /* en izquierda */
+    padding-right: 50px; /* en derecha */
+    padding-bottom: 15px; /* abajo */
+    padding-top: 15px; /* arriba */
+  }
+  /*
+  #personalData {
+    height: 550px;
+    border: 1px solid black;
+    background-color: coral;
+    aspect-ratio: 1;
+    animation: movimiento 5s infinite;
+  }
+  
+  @keyframes movimiento {
+    33% {aspect-ratio: 1;}
+    66% {aspect-ratio: 2;}
+  }
+  */
+  
+  #hobbies {
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border:5px ;
+    margin: 10px;
+  
+    padding: 1%;
+  }
+  h3{
+    color: blueviolet;
+  }
+  #experience{
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+    margin: 5px;
+    padding: 3%;
+    opacity: 90%;
+  }
+  .exp{
+    color: aqua;
+    font-size: x-large;
+  }
+  .skills{
+  
+    text-shadow: 2px 2px #a19f9f;
+  }
